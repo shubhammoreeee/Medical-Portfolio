@@ -29,17 +29,17 @@ export default function MedicalHero() {
           {/* Navbar */}
           <header className="flex items-center justify-between px-6 pt-6 md:px-8 md:pt-7 lg:px-8">
             <div className="text-[28px] font-black italic tracking-tight text-black">
-              PUREMED+
+              RX Frequenci
             </div>
 
             <nav className="hidden items-center gap-8 text-[15px] font-medium lg:flex">
               {[
                 { name: "Home", id: "home" },
-                { name: "About Us", id: "about-us" },
-                { name: "Services", id: "services" },
-                { name: "Doctors", id: "doctors" },
-                { name: "Appointments", id: "appointments" },
-                { name: "Blog", id: "blog" }
+                { name: "About", id: "about-us" },
+                { name: "Conditions", id: "services" },
+                { name: "Therapy", id: "doctors" },
+                { name: "Book Scan", id: "appointments" },
+                { name: "Insights", id: "blog" }
               ].map((item) => (
                 <a
                   key={item.name}
@@ -57,7 +57,7 @@ export default function MedicalHero() {
 
             <div className="flex items-center gap-3">
               <button className="hidden rounded-full bg-white px-6 py-3 text-[15px] font-semibold text-black shadow-sm ring-1 ring-black/10 md:inline-flex">
-                Contact Us
+                Contact
               </button>
 
               <button className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-black shadow-sm ring-1 ring-black/10">
@@ -74,11 +74,11 @@ export default function MedicalHero() {
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-black text-white">
                   <Stethoscope className="h-4 w-4" strokeWidth={2.2} />
                 </span>
-                Expert Doctors
+                Advanced Wellness Therapy
               </div>
 
               <h1 className="max-w-[700px] text-[34px] sm:text-[46px] font-normal leading-[0.98] tracking-[-0.04em] text-black md:text-[72px] lg:text-[66px] xl:text-[72px]">
-                Our Mission Delivering Compassionate, Patient-Centered Care
+                Restore Balance with Frequency Therapy
               </h1>
 
               <div className="mt-10 overflow-hidden rounded-[26px] bg-white/30 shadow-[0_8px_24px_rgba(0,0,0,0.06)] ring-1 ring-black/5 backdrop-blur-sm max-w-[650px]">
@@ -93,22 +93,22 @@ export default function MedicalHero() {
             {/* Right */}
             <div className="flex flex-col lg:col-span-5 lg:pl-6">
               <p className="max-w-[470px] pt-2 text-[18px] leading-[1.5] text-black/80 lg:mt-24">
-                We strive to provide exceptional healthcare by focusing on
-                compassion, innovation, and patient well-being — ensuring
-                personalized care that empowers healthier lives and builds trust
-                every step of the way.
+                Advanced non-invasive frequency therapy
+designed to support your body’s natural balance
+and improve internal communication between systems
+for better overall well-being.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-6">
                 <button className="rounded-full bg-black px-8 py-4 text-[18px] font-medium text-white shadow-lg">
-                  Book an Appointment
+                  Book Your Scan
                 </button>
 
                 <a
                   href="#"
                   className="text-[18px] font-medium text-black underline underline-offset-4"
                 >
-                  Find a Doctor
+                  Explore Therapy
                 </a>
               </div>
 
@@ -139,7 +139,7 @@ export default function MedicalHero() {
                     </div>
 
                     <p className="text-[16px] leading-[1.35] text-black/70">
-                      More than 2+ Doctors in your door
+                      Trusted by 1000+ wellness clients
                     </p>
                   </div>
 

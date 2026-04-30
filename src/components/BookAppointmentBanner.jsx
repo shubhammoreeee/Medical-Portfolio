@@ -146,17 +146,15 @@ export default function BookAppointmentBanner() {
             <div className="px-7 py-10 md:px-10 lg:px-12 xl:px-14">
               <div className="max-w-[560px]">
                 <h2 className="text-[32px] sm:text-[42px] font-normal leading-[0.98] tracking-[-0.055em] text-white md:text-[58px] lg:text-[62px] xl:text-[66px]">
-                  Improving health with intelligent technology
+                  Improving wellness with frequency technology
                 </h2>
 
                 <p className="mt-6 max-w-[520px] text-[18px] leading-[1.45] tracking-[-0.02em] text-white/88 md:text-[20px]">
-                  Harnessing smart technology to deliver personalized healthcare
-                  solutions that enhance wellness, prevent illness, and promote
-                  healthier lifestyles.
+                  Using advanced frequency programs to support relaxation, balance, and better living.
                 </p>
 
                 <button className="mt-10 rounded-full bg-white px-9 py-4 text-[18px] font-medium text-[#222222] shadow-[0_10px_24px_rgba(255,255,255,0.12)]">
-                  Book a Free Consultation
+                  Book Your Frequency Scan
                 </button>
               </div>
             </div>

@@ -15,7 +15,7 @@ export default function FooterSection() {
           {/* Left large block */}
           <div>
             <h2 className="max-w-[330px] text-[39px] font-normal leading-[1.05] tracking-[-0.045em] text-[#f4f4f6]">
-              Helping people live more independently
+              Helping people achieve balance naturally
             </h2>
 
             <div className="mt-8 flex items-center gap-4 text-[#f1f1f3]">
@@ -41,7 +41,7 @@ export default function FooterSection() {
             </p>
 
             <div className="mt-4 max-w-[250px] text-[17px] leading-[1.25] tracking-[-0.02em] text-[#f4f4f6]">
-              <p>Feelmind Healthcare Solutions</p>
+              <p>RX Frequenci Clinic</p>
               <p>House #12, Road #5,</p>
               <p>Gulshan-2, Dhaka 1212,</p>
               <p>Bangladesh</p>
@@ -55,7 +55,7 @@ export default function FooterSection() {
             </p>
 
             <nav className="mt-4 flex flex-col gap-[9px]">
-              {["About Us", "Services", "Doctors", "Appointments", "Blog"].map(
+              {["About", "Conditions", "Therapy", "Book Scan", "Insights"].map(
                 (item) => (
                   <a
                     key={item}
@@ -74,20 +74,20 @@ export default function FooterSection() {
             <div>
               <p className="text-[16px] font-normal text-[#cfcfd6]">Email</p>
               <a
-                href="mailto:info@feelmind.com"
+                href="mailto:info@rxfrequenci.com"
                 className="mt-4 block text-[25px] font-normal tracking-[-0.03em] text-[#f6f6f7]"
               >
-                info@feelmind.com
+                info@rxfrequenci.com
               </a>
             </div>
 
             <div className="mt-8">
               <p className="text-[16px] font-normal text-[#cfcfd6]">Phone</p>
               <a
-                href="tel:+12395550108000"
+                href="tel:+919581074777"
                 className="mt-4 block text-[25px] font-normal tracking-[-0.03em] text-[#f6f6f7]"
               >
-                (239) 555-0108 000
+                +91 95810 74777
               </a>
             </div>
           </div>

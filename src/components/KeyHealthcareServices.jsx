@@ -8,14 +8,13 @@ export default function KeyHealthcareServices() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-start">
           <div className="lg:col-span-5">
             <h2 className="max-w-[420px] text-[38px] sm:text-[48px] font-normal leading-[0.95] tracking-[-0.05em] text-black md:text-[60px] lg:text-[58px] xl:text-[62px]">
-              Our Key Healthcare Services
+              Our Key Wellness Solutions
             </h2>
           </div>
 
           <div className="lg:col-span-7 lg:pt-12">
             <p className="max-w-[520px] text-[20px] leading-[1.35] tracking-[-0.025em] text-[#232323]">
-              Comprehensive medical services designed to keep you healthy, safe,
-              and cared for.
+              Personalized frequency-based wellness solutions designed to support balance and improve overall health.
             </p>
           </div>
         </div>
@@ -30,7 +29,7 @@ export default function KeyHealthcareServices() {
               </p>
 
               <h3 className="mt-4 text-[29px] font-normal leading-[1.05] tracking-[-0.045em] text-[#f7f2d8]">
-                Check Your Health Regularly
+                Track Your Wellness Progress
               </h3>
 
               <button className="mt-8 rounded-full bg-[#f5f1e8] px-8 py-3 text-[18px] font-medium text-[#282828] shadow-sm">
@@ -49,7 +48,7 @@ export default function KeyHealthcareServices() {
           <article className="grid min-h-[255px] grid-cols-1 sm:grid-cols-[0.78fr_1.32fr] overflow-hidden rounded-[22px] bg-[#f6e8ee]">
             <div className="bg-[linear-gradient(180deg,#f26f8f_0%,#f39ab0_100%)] p-6 text-white">
               <h3 className="text-[21px] font-semibold tracking-[-0.03em]">
-                Statistics
+                Wellness Insights
               </h3>
 
               <p className="mt-10 max-w-[175px] text-[16px] leading-[1.35] tracking-[-0.02em] text-white/90">
@@ -158,7 +157,7 @@ export default function KeyHealthcareServices() {
           {/* Stay informed card */}
           <article className="relative min-h-[255px] overflow-hidden rounded-[22px] bg-[linear-gradient(180deg,#ca98ef_0%,#a765e7_100%)] p-5">
             <button className="rounded-full bg-[#f7f4ef] px-5 py-3 text-[16px] font-medium text-[#2c2c2c]">
-              Stay Informed
+              Stay Balanced
             </button>
 
             <div className="mt-12">
@@ -177,7 +176,7 @@ export default function KeyHealthcareServices() {
           {/* Service bars */}
           <article className="min-h-[220px] rounded-[22px] bg-[#efefef] p-5">
             <h3 className="max-w-[190px] text-[18px] font-medium leading-[1.05] tracking-[-0.03em] text-[#2b2b2b]">
-              Our Key Healthcare Services
+              Our Key Wellness Solutions
             </h3>
 
             <div className="mt-7 flex items-end gap-6">
@@ -232,34 +231,26 @@ export default function KeyHealthcareServices() {
           <article className="relative min-h-[220px] overflow-hidden rounded-[22px] bg-[linear-gradient(90deg,#7d2df5_0%,#b27df6_100%)] p-5">
             <div className="relative z-10 max-w-[290px]">
               <h3 className="text-[22px] font-semibold tracking-[-0.03em] text-[#f8f2eb]">
-                Dr. Sarah Johnson
+                Personalized Therapy Session
               </h3>
 
               <div className="mt-5 space-y-3 text-[16px] leading-none text-[#f3e7d9]">
                 <p>
                   <span className="opacity-85">Specialization :</span>
-                  <span className="ml-4">Cardiologist</span>
+                  <span className="ml-4">Frequency Specialist</span>
                 </p>
                 <p>
                   <span className="opacity-85">Experience :</span>
-                  <span className="ml-8">12+ Years</span>
+                  <span className="ml-8">Customized Plans</span>
                 </p>
                 <p className="flex items-center">
                   <span className="opacity-85">Rating :</span>
-                  <span className="ml-12">(4.9)</span>
-                  <span className="ml-2 flex">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star
-                        key={i}
-                        className="h-4 w-4 fill-[#f7dc73] text-[#f7dc73]"
-                      />
-                    ))}
-                  </span>
+                  <span className="ml-12 text-sm">Trusted by Clients</span>
                 </p>
               </div>
 
               <button className="mt-10 rounded-full bg-[#f5f0e8] px-7 py-4 text-[16px] font-medium text-[#272727] shadow-sm">
-                Book an Appointment
+                Book Your Scan
               </button>
             </div>
 

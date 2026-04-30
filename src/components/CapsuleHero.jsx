@@ -40,7 +40,7 @@ export default function App() {
               <div className="flex items-center gap-3 pt-1">
                 <span className="h-[10px] w-[10px] rounded-full bg-[#d71f14]" />
                 <p className="text-[17px] font-medium tracking-[-0.02em] text-[#cf2b1f]">
-                  Easy Access to Trusted Medicines
+                  Non-invasive wellness support
                 </p>
               </div>
             </div>
@@ -48,14 +48,7 @@ export default function App() {
             {/* Right text */}
             <div className="lg:col-span-7">
               <p className="max-w-[760px] text-[16px] leading-[1.42] tracking-[-0.035em] text-[#5c5c61] md:text-[18px] lg:text-[18px] xl:text-[20px]">
-                Welcome to Care By Dr.
-                <br />
-                Your health and well-being are our highest priority.
-                <br />
-                Our dedicated team of specialists is committed to delivering
-                exceptional care across a wide range of medical services —
-                ensuring you receive the support, expertise, and attention you
-                deserve.
+                Your wellness and internal balance are our priority. Our frequency-based approach supports relaxation, energy balance, and improved body regulation.
               </p>
             </div>
           </div>
@@ -64,7 +57,7 @@ export default function App() {
         {/* Background text */}
         <div className="pointer-events-none absolute inset-x-0 top-[57%] z-0 -translate-y-1/2 overflow-hidden">
           <h1 className="whitespace-nowrap text-center text-[72px] sm:text-[108px] font-black italic uppercase leading-none tracking-[-0.07em] text-[#e8e5e8] md:text-[145px] lg:text-[168px] xl:text-[182px]">
-            MEDICAI CAPSULE
+            FREQUENCY THERAPY
           </h1>
         </div>
 
@@ -92,14 +85,10 @@ export default function App() {
               {/* Left - heading */}
               <div>
                 <h2 className="text-[32px] sm:text-[36px] font-bold leading-[1.1] tracking-[-0.04em] text-[#1a1a1d] md:text-[48px] lg:text-[52px]">
-                  Streamline Your
-                  <br />
-                  Health Care
+                  Support Your Body Naturally
                 </h2>
-                <p className="max-w-[620px] text-[16px] leading-[1.5] tracking-[-0.02em] text-[#5c5c61] md:text-[17px] lg:text-[18px]">
-                  Enjoy hassle-free healthcare with fast, convenient prescription
-                  ordering and dependable delivery — so you get the medications
-                  you need, right on time and without the stress.
+                <p className="max-w-[620px] text-[16px] leading-[1.5] tracking-[-0.02em] text-[#5c5c61] md:text-[17px] lg:text-[18px] mt-4">
+                  Experience personalized frequency sessions designed to support relaxation, improve balance, and enhance overall well-being.
                 </p>
               </div>
 
@@ -107,7 +96,7 @@ export default function App() {
               <div className="flex flex-row items-center justify-start lg:justify-end gap-8 mt-6 lg:mt-0">
                 <div className="flex items-center justify-start lg:justify-center">
                   <button className="rounded-full bg-[#1a1a1d] px-8 py-4 text-[16px] font-semibold text-white shadow-lg transition-all hover:bg-[#2d2d30] md:text-[17px]">
-                    More About Us
+                    Learn More
                   </button>
                 </div>
               </div>

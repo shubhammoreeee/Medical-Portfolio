@@ -13,9 +13,9 @@ export default function ServicesSection() {
               </div>
 
               <h2 className="max-w-[650px] text-[36px] sm:text-[42px] font-normal leading-[0.98] tracking-[-0.045em] text-black md:text-[58px] lg:text-[62px]">
-                Explore Our Range Of
+                Explore Conditions
                 <br />
-                Healthcare Services
+                We Support
               </h2>
             </div>
           </div>
@@ -23,11 +23,9 @@ export default function ServicesSection() {
           <div className="lg:col-span-5 lg:pt-6">
             <p className="max-w-[470px] text-[17px] sm:text-[19px] leading-[1.45] tracking-[-0.02em] text-[#242424]">
               <span className="text-[#c83a2c]">
-                Discover comprehensive healthcare
+                Discover wellness support
               </span>{" "}
-              solutions tailored to your needs, including preventive care,
-              advanced treatments, and personalized support for a healthier,
-              happier life every day.
+              programs designed to help your body restore balance and function naturally.
             </p>
           </div>
         </div>
@@ -46,12 +44,11 @@ export default function ServicesSection() {
 
             <div className="pt-7">
               <h3 className="text-[27px] font-normal leading-[1.05] tracking-[-0.03em] text-[#1f1f1f]">
-                Mental Health Services
+                Stress & Anxiety
               </h3>
 
               <p className="mt-5 max-w-[290px] text-[16px] leading-[1.45] tracking-[-0.02em] text-[#5e5e62]">
-                Compassionate care and expert support to help you achieve
-                emotional balance, mental clarity, and lasting well-being.
+                Supports emotional balance and relaxation
               </p>
             </div>
 
@@ -84,16 +81,15 @@ export default function ServicesSection() {
 
             <div className="mt-auto pt-16">
               <h3 className="max-w-[280px] text-[28px] font-normal leading-[1.08] tracking-[-0.03em] text-white">
-                Meet Our Expert Doctors
+                Personalized Frequency Plans
               </h3>
 
               <p className="mt-5 max-w-[300px] text-[16px] leading-[1.45] tracking-[-0.02em] text-white/90">
-                Get to know our highly qualified doctors committed to providing
-                personalized care and expert medical guidance for every patient.
+                Customized therapy programs tailored to your body
               </p>
 
               <button className="mt-8 inline-flex items-center rounded-full bg-white px-7 py-4 text-[16px] font-medium text-[#2a2a2a] shadow-sm">
-                Book an Appointment
+                Book Your Scan
               </button>
             </div>
           </article>
@@ -110,12 +106,11 @@ export default function ServicesSection() {
 
             <div className="pt-7">
               <h3 className="text-[27px] font-normal leading-[1.05] tracking-[-0.03em] text-[#1f1f1f]">
-                Individual Counseling
+                Migraine & Neural Support
               </h3>
 
               <p className="mt-5 max-w-[290px] text-[16px] leading-[1.45] tracking-[-0.02em] text-[#5e5e62]">
-                Personalized one-on-one counseling sessions designed to address
-                your unique emotional challenges.
+                Helps support neural balance and reduce sensitivity
               </p>
             </div>
 
